@@ -1,0 +1,91 @@
+package br.com.vgodoy.model;
+
+public class Aplicacao {
+	
+	public static void main(String[] args) {
+		Carro palio = new Carro(10, 180, 5, "Fiat Palio");
+		palio.trocarDeMarcha();
+		palio.acelerar();
+		System.out.println(palio.toString());
+		palio.acelerar();
+		System.out.println(palio.toString());
+		palio.acelerar();
+		System.out.println(palio.toString());
+		palio.acelerar();
+		System.out.println(palio.toString());
+		palio.acelerar();
+		System.out.println(palio.toString());
+		palio.trocarDeMarcha();
+		palio.acelerar();
+		System.out.println(palio.toString());
+		palio.acelerar();
+		System.out.println(palio.toString());
+		palio.acelerar();
+		System.out.println(palio.toString());
+		palio.acelerar();
+		System.out.println(palio.toString());
+		palio.trocarDeMarcha();
+		palio.acelerar();
+		System.out.println(palio.toString());
+		palio.acelerar();
+		System.out.println(palio.toString());
+		palio.trocarDeMarcha();
+		palio.acelerar();
+		System.out.println(palio.toString());
+		palio.frear();
+		System.out.println(palio.toString());
+		palio.trocarDeMarcha();
+		palio.acelerar();
+		System.out.println(palio.toString());
+		palio.acelerar();
+		System.out.println(palio.toString());
+		palio.trocarDeMarcha();
+		palio.acelerar();
+		System.out.println(palio.toString());
+		palio.acelerar();
+		System.out.println(palio.toString());
+		palio.acelerar();
+		System.out.println(palio.toString());
+		palio.trocarDeMarcha();
+		palio.acelerar();
+		System.out.println(palio.toString());
+		palio.acelerar();
+		System.out.println(palio.toString());
+		palio.acelerar();
+		System.out.println(palio.toString());
+		palio.trocarDeMarcha();
+		palio.acelerar();
+		System.out.println(palio.toString());
+		palio.acelerar();
+		System.out.println(palio.toString());
+		palio.acelerar();
+		System.out.println(palio.toString());
+		CarroAutomatico civic = new CarroAutomatico(10, 220, 5, "Civic", true);
+		civic.acelerar();
+		System.out.println(civic.toString());
+		civic.acelerar();
+		System.out.println(civic.toString());
+		civic.acelerar();
+		System.out.println(civic.toString());
+		civic.acelerar();
+		System.out.println(civic.toString());
+		civic.acelerar();
+		System.out.println(civic.toString());
+		civic.acelerar();
+		System.out.println(civic.toString());
+		civic.acelerar();
+		System.out.println(civic.toString());
+		civic.acelerar();
+		System.out.println(civic.toString());
+		civic.frear();
+		System.out.println(civic.toString());
+		civic.acelerar();
+		System.out.println(civic.toString());
+		civic.acelerar();
+		System.out.println(civic.toString());
+		civic.acelerar();
+		System.out.println(civic.toString());
+		
+	}
+
+}
